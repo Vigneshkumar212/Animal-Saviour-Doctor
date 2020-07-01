@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    
+    <head>
+        <title>Animal Saviour Call</title>
+    </head>
+    <body>
+        <center>   
+            <script>//texts</script>
+            <h1>Welcome To Make A Call</h1>
+            <h3>Just Click On The Link Call To Call The Owner Of The Pet </h3>
+            
+            <script> 
+                // to get the phone number of the person from the local storage               
+                var phno = localStorage. getItem('phno'); 
+            </script>
+
+            <script>//creating a link. which, when pressed will open the phone's calling app</script>
+            <a href="tel:"+phno><h2>Call<h2></a>
+        </center>
+    </body>
+</html>
